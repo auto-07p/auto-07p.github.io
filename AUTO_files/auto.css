@@ -1,0 +1,304 @@
+/* 
+   ===================================================================
+   File: auto.css
+   Author: Pankaj Kamthan
+   Date: October 20, 1998
+   Last Updated: August 1, 2002
+   Description: This is a CSS style sheet for the AUTO-related XHTML 
+                documents at Computational Mathematics and Visualization 
+                Laboratory (CMVL).
+   ===================================================================
+*/
+
+/* ============================= BODY ============================= */
+
+/* Body */
+
+body { 
+  color:            #000000;
+  background:       #ffffff;
+  font-family:      sans-serif, verdana, arial, helvetica, tahoma;
+  font-size:        small;
+}
+
+/* Header (Title, Author) */
+
+.title {
+  width:            100%;
+  border:           solid 1px rgb(000,000,000);
+  text-align:       center;
+  font-weight:      normal;
+  background-color: #fffff4;
+  color:            #0050b2; 
+}
+
+.author {
+  width:            100%;
+  text-align:       center;
+  font-weight:      normal;
+  font-size:        11pt;
+  color:            #0080c0;
+}
+
+/* Footer (Signature, Policy, Contact Information) */
+
+.foot {
+  width:            100%;
+  border:           solid 1px rgb(000,000,000);
+  padding:          1px;
+  background-color: #eee;
+  text-align:       center;
+  font-size:        10pt;
+}
+
+/* ============================= TEXT ============================= */
+
+/* Headings */
+
+h1 {
+  text-align:       center;
+  font-weight:      normal;
+  font-size:        20pt;
+  color:            #000099; 
+}
+
+h2 {
+  text-align:       left;
+  font-weight:      normal;
+  font-size:        16pt;
+  color:            #004080; 
+}
+
+h3 {
+  text-align:       left;
+  font-weight:      normal;
+  font-size:        14pt;
+  color:            #042040; 
+}
+
+h4 {
+  text-align:       left;
+  font-weight:      normal;
+  font-size:        14pt;
+  color:            #04667b; 
+}
+
+h5 {
+  text-align:       left;
+  font-weight:      normal;
+  font-size:        13pt;
+  color:            #800000;
+}
+
+h6 {
+  text-align:       left;
+  font-weight:      normal;
+  font-size:        12pt;
+  color:            #0000bf;
+}
+
+/* Citation */
+
+.citation {
+  width:            95%;
+  border:           solid 1px rgb(000,000,000);
+  margin-left:      1cm;
+  padding:          2px;
+  background-color: #fff;
+  color:            #006a00;
+}
+
+/* Emphasis */
+
+.emphasis {
+  width:            95%;
+  border:           solid 1px rgb(000,000,000);
+  background-color: #fff;
+  margin-left:      1cm;
+  padding:          2px;
+}
+
+/* Quote */
+
+.quote {
+  width:            95%;
+  border:           solid 1px rgb(000,000,000);
+  padding:          2px;
+  margin-left:      1cm;
+  background-color: #fff;
+  color:            #804040;
+}
+
+/* Definitions */
+
+dt {
+  font-weight:      bold;
+  color:            #00552b;
+}
+code.element {
+  font-weight:      bold;
+  color:            #00552b;
+}
+
+code.attribute {
+  font-weight:      bold;
+  color:            #550000;
+}
+
+code.entity {
+  font-weight:      bold;
+  color:            #0000af;
+}
+
+/* Code */
+
+pre.code {
+  width:            100%;
+  border:           solid 1px rgb(000,000,000);
+  padding:          2px;
+  background-color: #eef;
+}
+
+/* CSS */
+
+pre.css {
+  width:            100%;
+  border:           solid 1px rgb(000,000,000);
+  padding:          2px;
+  background-color: #fcedf2;
+}
+
+/* Markup */
+
+pre.markup {
+  width:            100%;
+  border:           solid 1px rgb(000,000,000);
+  padding:          2px;
+  background-color: #eff;
+}
+
+/* DTD */
+
+pre.dtd {
+  width:            100%;
+  border:           solid 1px rgb(000,000,000);
+  padding:          2px;
+  background-color: #efe;
+}
+
+/* EBNF */
+
+pre.ebnf {
+  width:            100%;
+  border:           solid 1px rgb(000,000,000);
+  background-color: #cef;
+  padding:          2px;
+}
+
+/* [LA]TEX */
+
+pre.tex {
+  width:            100%;
+  border:           solid 1px rgb(000,000,000);
+  background-color: #f1fae4;
+  padding:          2px;
+}
+
+/* ========================== STRUCTURES ========================== */
+
+/* Horizontal Rule */
+
+hr { 
+  color:            rgb(128,128,128); 
+  border-top:       normal;
+}
+
+/* Lists */
+
+ul {
+  list-style-type:  square;
+}
+
+/* Tables */
+
+table {
+  background-color: #f4faff;
+  
+}
+
+/* Forms */
+
+form {
+  width:            100%;
+  border:           none;
+  background-color: #dff;
+  padding:          2px;
+}
+
+/* ========================== NAVIGATION ============================ */
+
+.navigation {
+  width:            100%;
+  color:            #fffff5; 
+  background-color: #006595;
+  padding:          1px;
+  text-align:       center;
+  font-weight:      normal;
+}
+
+/* Navigation Links */
+
+.navigation a:link {
+  color:            #fff; 
+  text-decoration:  none;
+}
+
+.navigation a:active {
+  color:            #fff; 
+  text-decoration:  none;
+}
+
+.navigation a:visited {
+  color:            #fff; 
+  text-decoration:  none;
+}
+
+/* ============================ LINKS ============================= */
+
+/* Links */
+
+a:link {
+  background:       none transparent scroll repeat 0% 0%; 
+  color:            #0000ff; 
+  text-decoration:  underline;
+}
+
+a:active {
+  background:       none transparent scroll repeat 0% 0%; 
+  color:            #ff0000; 
+  text-decoration:  underline;
+}
+
+a:visited {
+  background:       none transparent scroll repeat 0% 0%; 
+  color:            #400080; 
+  text-decoration:  underline;
+}
+
+a:hover {
+  background:       #0050b2; 
+  color:            #fffff0;
+}
+
+#TopLink {
+  border-right:     #ffdd00 1px solid; 
+  padding-right:    10px; 
+  border-top:       #ffdd00 1px solid; 
+  padding-left:     10px; 
+  font-weight:      bold; 
+  padding-bottom:   10px; 
+  border-left:      #ffdd00 1px solid; 
+  padding-top:      10px; 
+  border-bottom:    #ffdd00 1px solid; 
+  background-color: white;
+}

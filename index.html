@@ -1,0 +1,206 @@
+<!--?xml version="1.0" encoding="UTF-8" ?-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<link rel="stylesheet" type="text/css" media="screen" href="AUTO_files/auto.css">
+<meta name="Author" content="Pankaj Kamthan">
+<title>AUTO</title>
+</head>
+
+<body>
+
+<p class="navigation" align="center">| <a href="#announcements">Announcements</a> | <a href="#introduction">What is AUTO?</a> | <a href="#evolution">Evolution</a> | <a href="#distribution">Distribution</a> | <a href="#documentation">Documentation</a> | <a href="#applications">Applications</a> | <a href="#related_software">Related Software</a>
+| <a href="#lecture_notes">Lecture Notes</a> |</p>
+
+<h1 class="title">AUTO<br>
+<small>SOFTWARE FOR CONTINUATION AND BIFURCATION PROBLEMS IN ORDINARY DIFFERENTIAL
+EQUATIONS</small></h1>
+
+<p>This is the Home Page of the AUTO Web Site, established in January 1996.</p>
+
+<h2><a name="announcements"></a>ANNOUNCEMENTS</h2>
+
+<ul>
+  <li>[January 1, 2011] Version 0.8 of AUTO-07p is available at SourceForge.</li>
+</ul>
+<!--
+<ul>
+  <li>[December 12, 2008] AUTO-07p demos have been updated.</li>
+	<li>[August 31, 2007] AUTO-07p has been updated.</li>
+	<li>[August 27, 2006] AUTO-07p is available.</li>
+  <li>[March 15, 2006] AUTO 2000 has been updated.</li>
+</ul>
+-->
+<h2><a name="introduction"></a>INTRODUCTION</h2>
+
+<p>AUTO is a software for continuation and bifurcation problems in 
+ordinary 
+differential equations, originally developed by Eusebius Doedel, with 
+subsequent 
+major contribution by several people, including Alan Champneys, Fabio 
+Dercole, Thomas Fairgrieve, Yuri Kuznetsov, Bart Oldeman, Randy 
+Paffenroth, Bjorn Sandstede, Xianjun Wang, and Chenghai Zhang.</p>
+<p>AUTO can do a limited bifurcation analysis of algebraic systems of the form </p>
+
+<p align="center">f(u,p) = 0, &nbsp;&nbsp;&nbsp;f,u in <strong>R</strong><sup>n</sup></p>
+
+<p>and of systems of ordinary differential equations of the form </p>
+
+<p align="center">u'(t) = f(u(t),p), &nbsp;&nbsp;&nbsp;f,u in <strong>R</strong><sup>n</sup></p>
+
+<p>subject to initial conditions, boundary conditions, and integral constraints. Here p
+denotes one or more parameters. AUTO can also do certain continuation and evolution
+computations for parabolic PDEs. It also includes the software HOMCONT for the bifurcation
+analysis of homoclinic orbits. AUTO is quite fast and can benefit from multiple 
+processors; therefore it is applicable to rather large systems of differential 
+equations.</p>
+<p>For further information and details, see the <a href="#documentation">AUTO
+Documentation</a>.</p>
+
+<h2><a name="evolution"></a>AUTO STATUS/EVOLUTION</h2>
+
+<p>The following table represents the historical evolution in the development of AUTO in a
+chronological order.</p>
+<div align="center"><center>
+
+<table width="100%" cellspacing="0" cellpadding="2" border="1">
+  <tbody><tr>
+    <th>Year </th>
+    <th>Version Specification</th>
+    <th>Affiliation</th>
+  </tr>
+  <tr>
+    <td>1976 </td>
+    <td>Early program for BVP in ODEs </td>
+    <td>California Institute of Technology, Pasadena,
+    USA</td>
+  </tr>
+  <tr>
+    <td>1980 </td>
+    <td>First distributed version </td>
+    <td>Concordia University, Montreal, Canada</td>
+  </tr>
+  <tr>
+    <td>1986 </td>
+    <td>AUTO86 </td>
+    <td>California Institute of Technology, Pasadena,
+    USA</td>
+  </tr>
+  <tr>
+    <td>1994 </td>
+    <td>X/Motif version : AUTO94 </td>
+    <td>California Institute of Technology, Pasadena,
+    USA</td>
+  </tr>
+  <tr>
+    <td>1994</td>
+    <td>Parallel version: AUTO94P </td>
+    <td>California Institute of Technology, Pasadena,
+    USA</td>
+  </tr>
+  <tr>
+    <td>1997 </td>
+    <td>AUTO97, with HOMCONT</td>
+    <td>Concordia University, Montreal, Canada</td>
+  </tr>
+  <tr>
+    <td>2000</td>
+    <td>C
+    Language Version</td>
+    <td>California Institute of Technology, Pasadena,
+    USA</td>
+  </tr>
+  <tr>
+    <td>2007</td>
+    <td>AUTO-07p</td>
+    <td>Concordia University, Montreal, Canada</td>
+  </tr>
+</tbody></table>
+</center></div>
+
+<h2><a name="distribution"></a>AUTO AVAILABILITY/DISTRIBUTION</h2>
+
+<p>The AUTO package is available for UNIX/Linux-based computers. </p>
+
+<h3>AUTO-07P</h3>
+
+<p>AUTO-07p is the successor to both AUTO97 and AUTO2000. </p>
+<p>It includes new plotting utilities, namely PyPlaut and Plaut04. It also 
+contains many of the features of AUTO2000, including the Python CLUI, some 
+parallelization, dynamic memory allocation, and the ability to use user equation 
+files written in C. The overall performance has improved, especially for systems 
+where the Jacobian matrix is sparse.</p>
+<p>AUTO-07p is written in 
+Fortran. At least a Fortran 90 compiler is required to compile AUTO-07p. One 
+such compiler is the freely downloadable
+<a href="http://gcc.gnu.org/wiki/GFortran">GNU Fortran 95 compiler (gfortran)</a>. 
+Gfortran ships with most current Linux distributions.</p>
+<ul>
+	<li>Distribution: 
+	<a href="http://sourceforge.net/projects/auto-07p/files/auto07p/">Download at SourceForge</a>.</li>
+</ul>
+
+<!--
+<h3>AUTO2000</h3>
+
+<ul>
+  <li>Distribution: 
+	<a href="http://sourceforge.net/project/showfiles.php?group_id=21781">Download</a> at <a href="http://auto2000.sourceforge.net/">SourceForge</a>.</li>
+</ul>
+-->
+<h2><a name="documentation"></a>AUTO DOCUMENTATION</h2>
+
+<p>The AUTO distribution include a copy of the AUTO Manual in L<small>A</small>T<small>E</small>X,
+PostScript, and Portable Document Format (PDF).</p>
+
+<h2><a name="applications"></a>AUTO APPLICATIONS</h2>
+
+<p>AUTO has been used in many scientific and engineering applications. A sample 
+of applications can be found by searching on the Web for "bifurcation software AUTO".</p>
+
+<h2><a name="related_software"></a>RELATED SOFTWARE</h2>
+
+<p>Other software directly or indirectly related to AUTO includes DSTool, 
+PyDSTool, XPPAUT, Content, MatCont, and DDE-BifTool.
+
+</p><h2><a name="lecture_notes"></a>RELATED LECTURE NOTES</h2>
+
+<ul>
+	<li><a href="http://indy.cs.concordia.ca/auto/notes.pdf">Lecture 
+	Notes on Numerical Analysis of Nonlinear Equations</a>. By Eusebius Doedel. 
+	Last Modified: Spring 2010.</li>
+</ul>
+
+<!--
+<h2>AUTO-07P DEMOS</h2>
+<ul>
+	<li><a href="demos/ab.tar.gz">ab</a>,
+	<a href="demos/abc.tar.gz">abc</a>,
+	<a href="demos/bvp.tar.gz">bvp</a>,
+	<a href="demos/exp.tar.gz">exp</a>,
+	<a href="demos/fhn.tar.gz">fhn</a>,
+	<a href="demos/lrz.tar.gz">lrz</a>,
+	<a href="demos/pp2.tar.gz">pp2</a>,
+	<a href="demos/pp3.tar.gz">pp3</a>,
+	<a href="demos/r3b.tar.gz">r3b</a>,
+	<a href="demos/spb.tar.gz">spb</a>,
+	<a href="demos/vhb.tar.gz">vhb</a>.</li>
+	<li><a href="demos/constants.ps">A summary of AUTO constants</a>. [PostScript]</li>
+	<li><a href="demos/ab-tutorial.zip">ab-tutorial</a>; step by step <a href="demos/ab-tutorial.ps">instructions for the ab-tutorial</a>. [PostScript]</li>
+</ul>
+-->
+<h2><a name="feedback"></a>CONTACT/FEEDBACK</h2>
+
+<p>If you have any comments, questions, or suggestions, please let
+us know by mailing "<code>doedel at cse dot concordia dot ca</code>" with "<code>Subject:
+AUTO Related</code>." An enquiry should include full name and affiliation.</p>
+
+<p class="foot">Maintained By: Pankaj Kamthan.<a href="mailto:kamthan@cs.concordia.ca"><br>
+</a>(C) 1995-2010 <a href="http://cmvl.cs.concordia.ca/">Computational
+Mathematics and Visualization Laboratory (CMVL)</a>. All Rights Reserved.</p>
+
+<p class="navigation" align="center">| <a href="#announcements">Announcements</a> | <a href="#introduction">What is AUTO?</a> | <a href="#evolution">Evolution</a> | <a href="#distribution">Distribution</a> | <a href="#documentation">Documentation</a> | <a href="#applications">Applications</a> | <a href="#related_software">Related Software</a>
+| <a href="#lecture_notes">Lecture Notes</a> |</p>
+
+
+</body></html>
